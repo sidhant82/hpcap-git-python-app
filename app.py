@@ -11,7 +11,7 @@ html_template = """
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator</title>
+    <title> welcome  python Calculator</title>
 </head>
 <body>
 <h1>sidhant kumar sah</h1>
@@ -19,6 +19,7 @@ html_template = """
 <h1>sidhant</h1>
 <h1>rajshree </h1>
 <h1>prn 240840141015 </h1>
+
 
     <h1>Calculator App by {{ name }} (PRN: {{ prn }})</h1>
     <form method="post" action="/">
