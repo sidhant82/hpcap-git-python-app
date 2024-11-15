@@ -20,7 +20,7 @@ jobs:
       USER: ${{ secrets.USER }}
       PASS: ${{ secrets.PASS }}
     run: |
-       docker bulid . --file Dockerfile --tag sidhant82/github:latest
+       docker build . --file Dockerfile --tag sidhant82/github:latest
        docker login -u $USER -p $PASS
 
        docker push sidhant82/github:latest
