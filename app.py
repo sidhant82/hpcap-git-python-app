@@ -17,10 +17,6 @@ html_template = """
 <h1>sidhant kumar sah</h1>
 <h1>prn 240840141019 </h1>
 <h1>sidhant</h1>
-<h1>rajshree </h1>
-<h1>prn 240840141015 </h1>
-
-
     <h1>Calculator App by {{ name }} (PRN: {{ prn }})</h1>
     <form method="post" action="/">
         <label>Number 1:</label>
